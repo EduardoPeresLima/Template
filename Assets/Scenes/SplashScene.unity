@@ -518,6 +518,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   splashes:
   - {fileID: 11400000, guid: 417d8f4a5fe1fd34cb98cf1f7788bfa6, type: 2}
-  - {fileID: 11400000, guid: 3b61c7ffb19252f4c95a7b1dd89b05c7, type: 2}
   - {fileID: 11400000, guid: 1b243120d33271d4380837f65fac77f3, type: 2}
+  - {fileID: 11400000, guid: 3b61c7ffb19252f4c95a7b1dd89b05c7, type: 2}
   splashObject: {fileID: 1003546165}
+  mainMenuScene: {fileID: 102900000, guid: 08a4b1dad2bf0ff41ada06a12b6d821e, type: 3}

@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -10,6 +11,7 @@ namespace Splashes
     {
         [SerializeField] private List<Splash> splashes;
         [SerializeField] private GameObject splashObject;
+        [SerializeField] private SceneAsset mainMenuScene;
         private void Start() => StartCoroutine(PlayAllSplashes());
 
         private IEnumerator PlayAllSplashes()
@@ -23,6 +25,6 @@ namespace Splashes
             GoToMenu();
         }
 
-        private static void GoToMenu() => SceneManager.LoadScene("MainMenu");
+        private void GoToMenu() => SceneManager.LoadScene(mainMenuScene.name);
     }
 }
