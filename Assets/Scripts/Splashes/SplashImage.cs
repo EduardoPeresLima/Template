@@ -8,7 +8,7 @@ namespace Splashes
     [CreateAssetMenu(fileName = "SplashImage", menuName = "Splash/Splash Image")]
     public class SplashImage : Splash
     {
-        public Sprite splashImage;
+        [SerializeField] private Sprite splashImage;
         public float TimeFadeIn = 1.5f;
         public float TimeFadeOut = 2.5f;
 
